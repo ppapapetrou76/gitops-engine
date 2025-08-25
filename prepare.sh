@@ -7,5 +7,6 @@ rm dir1/sonar-project.properties dir1/codecov.yml
 mv dir1/ gitops-engine
 git add gitops-engine
 git add prepare.sh
-git checkout -b migrate
-git push
+git commit --signoff -m "prepare repo for migration to ArgoCD repo"
+git checkout -b migrate-2
+ git push --set-upstream origin migrate-2
