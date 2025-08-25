@@ -9,4 +9,4 @@ git add gitops-engine
 git add prepare.sh
 git commit --signoff -m "prepare repo for migration to ArgoCD repo"
 git checkout -b migrate-2
- git push --set-upstream origin migrate-2
+git push --set-upstream origin migrate-2
